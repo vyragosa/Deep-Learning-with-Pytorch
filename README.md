@@ -1,1 +1,1 @@
-# Deep-Learning-with-Pytorch
+# Глубокое обучение с Pytorch
