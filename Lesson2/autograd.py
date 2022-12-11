@@ -54,6 +54,17 @@ class Value:
 
 		return out
 
+	def softmax(self):
+		exp = np.exp(self.data)
+		out = Value(exp / exp.sum(), (self,), 'softmax')
+
+		def _backward():
+			self.grad += out.grad * (1 - out.data)
+
+		out._backward = _backward
+
+		return out
+
 	def backward(self):
 
 		# topological order all of the children in the graph
