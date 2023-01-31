@@ -8,4 +8,4 @@
 
 Также код можно посмотреть [здесь](VanGoghStyleTransfer.ipynb).
 
-[Видео]() с демонстрацией работы
+[Видео](https://drive.google.com/drive/folders/1bDnoJR1zeKqE1pFCIn1EPzEkN3smepGc?usp=sharing) с демонстрацией работы
